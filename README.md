@@ -133,7 +133,7 @@ The steps for configuring the App Registration & Service Principal for the web a
     1.  Click **Add permissions**
     1.  Click **Grant admin consent for <tenant-name>**
 
-Becuase this is sensitive data (salaries, sales data, etc), we don't want to allow users to consent for themselves to expose this data to any app that might request them. Instead, we require **admin consent** so that we can control which apps get access to this data.
+Because this is sensitive data (salaries, sales data, etc), we don't want to allow users to consent for themselves to expose this data to any app that might request them. Instead, we require **admin consent** so that we can control which apps get access to this data.
 
 ![apiPermissions](.img/apiPermissions.png)
 
