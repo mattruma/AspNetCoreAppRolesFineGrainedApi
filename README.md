@@ -165,6 +165,7 @@ Because this is sensitive data (salaries, sales data, etc), we don't want to all
     ```shell
     dotnet ef database update
     ```
+    You may need to install the [Entity Framework Core tools](https://docs.microsoft.com/en-us/ef/core/cli/dotnet) to execute the `dotnet ef` command.
 
 1.  Run the API
 
